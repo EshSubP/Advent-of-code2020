@@ -1,3 +1,4 @@
 Here,the inbuilt Python Sort method is used to sort the numbers
-Binary search is used to search for the numbers,i.e
-```If the number in the list is e,then we search for sum - e```
+Binary search is used to search for the numbers
+If the number in the list is e,then we search for sum - e,i.e 2020-e
+
