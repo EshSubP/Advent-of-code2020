@@ -1,0 +1,3 @@
+Here,the inbuilt Python Sort method is used to sort the numbers
+Binary search is used to search for the numbers,i.e
+```If the number in the list is e,then we search for sum - e```
