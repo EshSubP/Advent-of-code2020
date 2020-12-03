@@ -1,1 +1,5 @@
+Here,we use two-pointer technique to solve this problem
+This approach only needs O(n^2) time complexity.
+
+Brute force approach requires the use of 3 loops,which results in O(n^3) time complexity.
 
