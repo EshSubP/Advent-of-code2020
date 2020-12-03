@@ -3,3 +3,5 @@ This approach only needs O(n^2) time complexity.
 
 Brute force approach requires the use of 3 loops,which results in O(n^3) time complexity.
 
+OUTPUT:
+Triplet is 74 ,  894 ,  1052
