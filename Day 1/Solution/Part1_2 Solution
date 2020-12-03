@@ -5,3 +5,5 @@ Brute force approach requires the use of 3 loops,which results in O(n^3) time co
 
 OUTPUT:
 Triplet is 74 ,  894 ,  1052
+
+The product is 69596112
