@@ -1,0 +1,7 @@
+enumerate() method adds a counter to an iterable and returns it in a form of enumerate object.
+
+length is the number of characters in each line excluding the last "\n" or linebreak character
+
+k,l,m,n and o are variables used to set the (x,y) coordinate at which we need to check for the presence of "tree" or "#" character
+
+
