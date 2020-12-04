@@ -14,8 +14,8 @@ for i,line in enumerate(fh):
        tree5 = tree5+1
     if(line[n%length]=='#'):
        tree7 = tree7+1
-    if i%2==0:
-        if(line[o%length]=='#'):
+    if i%2==0:         #skip alternate lines
+        if(line[o%length]=='#'): 
             treeskip = treeskip+1
         o=o+1    
        
