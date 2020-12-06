@@ -1,0 +1,7 @@
+Again,I tried to use regex for part-2 solution.
+
+I used re.findall() because I was still unclear with how re.search works,with <match> object and stuff
+
+re.findall('pid:(\d{9}\s)',s) => Here I made a horrible mistake.The parser not only considers 9 digits but beyond that.So we use \s to indicate whitespace and limit the digits to 9
+
+
