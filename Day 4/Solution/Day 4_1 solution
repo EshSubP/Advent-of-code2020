@@ -13,4 +13,4 @@ In the end,we notice a problem.When the file handler reaches EOF,we notice that 
 Why?Because we specified that when we locate "\n" the string will get appended.At the end of file,there is no "\n" so the last entry will not be validated.
 But the last entries will be held by the empty string "s" ,and we can check the validity of the passport from it.
 
-We made many beginner mistakes,like using basic open() command for file handling and the code is not optimized.But hey,it works and hope I can do better next time.
+I feel that the code is not optimized.But hey,it works and hope I can do better next time.
