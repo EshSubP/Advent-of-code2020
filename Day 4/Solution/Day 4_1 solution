@@ -1,0 +1,16 @@
+Here we use Regular expressions to solve this problem
+
+We could also solve the same without using regex,but there is no reason not to use it...
+
+We first create a file handler 'fh' and read line by line.
+In the input file,we notice that the fields are also present in new lines,with an empty line indicating the next entry.
+We check for the presence of newline "\n" character in each line.If the newline is not present,we append the line(s) having different attributes to an empty string,replacing "\n" with " ".
+As soon as the newline character is detected,we check whether the required fields are present and clear the string holding the lines,and check for the validity of the next passport.
+
+we need iyr|ecl|eyr|pid|hcl|byr|hgt fields,and cid is optional.
+
+In the end,we notice a problem.When the file handler reaches EOF,we notice that the last entry of the file is omitted.
+Why?Because we specified that when we locate "\n" the string will get appended.At the end of file,there is no "\n" so the last entry will not be validated.
+But the last entries will be held by the empty string "s" ,and we can check the validity of the passport from it.
+
+We made many beginner mistakes,like using basic open() command for file handling and the code is not optimized.But hey,it works and hope I can do better next time.
