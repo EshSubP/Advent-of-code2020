@@ -1,0 +1,15 @@
+We first find the largest and smallest values of the seats.
+
+For a given array of consecutive numbers,we can easily find the missing number by taking the difference of actual sum of the elements and sum using n*(n+1)/2
+
+For instance,take an array of numbers 1 2 3 4 5
+Let's assume that 3 is missing,so we have 1 2 4 5
+1+2+4+5 = 12
+5*(5+1)/2 = 15
+15 - 12 = 3    ==> Missing number
+
+Now,the formula n*(n+1)/2 works only when the sequence is 1,2.....N
+
+For a sequence M,M+1,.....N ,we have ==> (M+N)*(M-N+1)/2,where N is the largest value and M is the smallest value
+
+
