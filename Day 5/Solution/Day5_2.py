@@ -17,6 +17,4 @@ for i,line in enumerate(fh):
         s = decimal
     
 seats = (s+l)*(l-s+1)//2
-#print(seats)
-#print(total)
 print("Your seat number is :",seats-total)
