@@ -1,0 +1,17 @@
+We can easily convert this problem using binary encoding
+
+FBFBBFFRLR => We replace F with 0,B with 1 and L with 0 and R with 1
+
+0101100 101 == 357 in decimal,which is the required seat id
+
+We can use for loop to convert a binary to decimal:
+decimal = 0
+for digit in binary:
+    decimal = decimal*2 + int(digit)
+print decimal
+
+Or we can use builtin functions,i.e,
+int(x , base = 2)
+
+
+
